@@ -44,7 +44,6 @@ for i in range(1, 102):
     quantity = random.randint(1, 10)
     total_amount = price * quantity
     sheet.append([transaction_id, item, price, quantity, total_amount])
-
     items_total[item] += total_amount
 
 
